@@ -1,6 +1,6 @@
 declare module "tsb" {
     type TSBPlatform = "nodejs" | "browser" | string;
-    type TSBPlugin = "minify" | string;
+    type TSBPlugin = "minify" | "macro" | string;
 
     class Builder {
         public module(name: string): this ;
