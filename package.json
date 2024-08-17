@@ -1,6 +1,6 @@
 {
     "name": "@bytelab.studio/tsb-runtime",
-    "version": "3.0.1",
+    "version": "3.1.0",
     "description": "The runtime types for the tsb bundler",
     "repository": "https://github.com/bytelab-studio/tsb-runtime",
     "author": "Christoph Koschel",
