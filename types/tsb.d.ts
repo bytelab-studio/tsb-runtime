@@ -17,10 +17,12 @@ declare module "tsb" {
 
         public chunkSize(size: number): this;
 
+        public embeddedFileMap(value: boolean): this;
+
         public plugins(...names: TSBPlugin[]): this;
     }
 
-    const builder: Builder;
+    export const builder: Builder;
 }
 
 export {}
