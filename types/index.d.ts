@@ -1,7 +1,9 @@
 declare global {
     namespace TSB {
         export interface AppDomain {
-            resolve(module: string): Record<string, any>;
+            resolve(module: string): Promise<Record<string, any>>;
+
+            loadBundle(path: string): Promise<void>
 
             isPrimaryDomain(): boolean;
 
